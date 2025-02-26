@@ -1,0 +1,9 @@
+.search-wrapper {
+    justify-items: start;
+}
+
+.search-button {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}

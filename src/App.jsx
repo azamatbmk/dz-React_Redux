@@ -1,11 +1,13 @@
 import './App.css'
-import Search from './components/search/search'
+import Nav from './components/Nav/Nav-menu'
+import Search from './components/Search/search'
 
 function App() {
   
 
   return (
     <>
+      <Nav/>
       <Search/>
     </>
   )

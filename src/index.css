@@ -24,12 +24,14 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
+  
   place-items: center;
   width: 100%;
 }
 
 h1 {
+  display: flex;
+  justify-content: start;
   font-size: 3.2em;
   line-height: 1.1;
 }
@@ -37,16 +39,3 @@ h1 {
 p {
   color: #8E95A9;
 }
-
-/* @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-} */

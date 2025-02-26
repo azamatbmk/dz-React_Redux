@@ -1,10 +1,16 @@
+/* eslint-disable react/prop-types */
 import './Button.css'
 
-function Button () {
+function Button ({ text }) {
+
+
+    const clicked = () => {
+        console.log('Нажал')
+    }
     
     return (
         <>
-            <button>Искать</button>
+            <button onClick={clicked}>{text}</button>
         </>
     )
 }
