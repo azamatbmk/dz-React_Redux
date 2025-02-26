@@ -7,9 +7,9 @@ export const Nav = () => {
         <div className='nav-container'>
             <img className='flag' src="/flag.svg" alt="" />
             <div className='menu-items'>
-                <span>Поиск фильмов</span>
-                <span>Мои фильмы</span>
-                <span>Войти</span>
+                <a href="#">Поиск фильмов</a>
+                <a href="#">Мои фильмы</a>
+                <a href="#">Войти</a>
                 <img src="/log_out.svg" alt="" />
             </div>
         </div>
