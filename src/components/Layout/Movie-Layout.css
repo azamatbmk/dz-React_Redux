@@ -1,0 +1,7 @@
+.movie-layout {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    gap: 24px;
+    justify-content: center;
+}

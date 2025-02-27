@@ -1,0 +1,35 @@
+.card-wrapper{
+    position: relative;
+    background-color: #20283ECC;
+    border-radius: 12px;
+    max-width: 282px;
+    max-height: 520px;
+    padding: 8px;
+}
+
+.card-wrapper > h2 {
+    justify-self: start;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.bottom-section {
+    padding: 8px;
+    display: flex;
+    gap: 8px;
+    justify-content: start;
+    color: #7B6EF6;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.rating {
+    position: absolute;
+    background-color: #000000A6;
+    border-radius: 8px;
+    color: #FFAD49;
+    padding: 4px;
+    top: 16px;
+    left: 16px;
+}
